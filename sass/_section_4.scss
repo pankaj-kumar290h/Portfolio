@@ -1,5 +1,8 @@
 .section4 {
   padding-top: 4rem;
+  @media (max-width: 500px) {
+    padding: 1rem;
+  }
   .profile {
     height: 40rem;
     width: 30rem;

@@ -34,6 +34,9 @@
     @media (max-width: 1150px) {
       padding: 1rem;
     }
+    @media (max-width: 600px) {
+      min-width: 500px;
+    }
 
     h2 {
       margin-bottom: 2.5rem;
