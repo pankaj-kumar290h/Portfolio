@@ -1,0 +1,58 @@
+.section4 {
+  padding-top: 4rem;
+  .profile {
+    height: 40rem;
+    width: 30rem;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    backdrop-filter: blur(10px);
+    margin: 0 auto;
+
+    text-align: center;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    .img-box {
+      margin: 5rem auto;
+      margin-bottom: 2rem;
+      height: 5rem;
+      width: 5rem;
+      background-image: url(../img/p1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 50%;
+      box-shadow: 0 6px 12px $color-blue;
+    }
+
+    .social-icon {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-around;
+      margin: 2rem;
+      .icon {
+        transition: all 0.3s;
+      }
+
+      .icon :hover {
+        transform: scale(1.2);
+      }
+
+      img {
+        margin: 5px;
+      }
+    }
+    .heading {
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        color: $color-red;
+      }
+      p {
+        font-size: 1rem;
+        color: #fff;
+      }
+    }
+  }
+}
