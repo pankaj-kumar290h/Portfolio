@@ -6,7 +6,7 @@
 }
 
 section {
-  min-height: 100vh;
+  max-height: 100vh;
   margin: 3rem;
 }
 
@@ -134,7 +134,7 @@ a {
 
 @media (max-width: 600px) {
   .section1-text {
-    min-width: 500px;
+    min-width: 400px;
   }
 }
 
@@ -193,7 +193,7 @@ a {
 
 .section2-text .h {
   width: 40%;
-  min-width: 466px;
+  min-width: 366px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -258,7 +258,7 @@ a {
 
 .section2-text .e {
   width: 40%;
-  min-width: 466px;
+  min-width: 366px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
