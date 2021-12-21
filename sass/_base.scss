@@ -7,6 +7,9 @@
 section {
   max-height: 100vh;
   margin: 3rem;
+  @media (max-width: 600px) {
+    margin: 0;
+  }
 }
 body {
   background-image: url(../img/bg4.png);

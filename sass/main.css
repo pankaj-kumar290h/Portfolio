@@ -10,6 +10,12 @@ section {
   margin: 3rem;
 }
 
+@media (max-width: 600px) {
+  section {
+    margin: 0;
+  }
+}
+
 body {
   background-image: url(../img/bg4.png);
   background-position: top;
