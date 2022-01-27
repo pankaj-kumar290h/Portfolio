@@ -201,6 +201,50 @@ nav {
   width: 70%;
   margin: 0 auto;
 }
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 80%;
+  }
+  .grid-box {
+    grid-template-columns: 1fr 1fr;
+  }
+  .nav {
+    width: 100%;
+  }
+  .text h1 {
+    font-size: 6rem;
+  }
+  .about-box {
+    width: 90%;
+  }
+  .about-text {
+    width: 80%;
+  }
+  .circle {
+    width: 25rem;
+    height: 25rem;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 60%;
+  }
+  .grid-box {
+    grid-template-columns: 1fr;
+  }
+  .about-box {
+    width: 95%;
+  }
+  .about-text {
+    width: 100%;
+  }
+  .circle {
+    width: 20rem;
+    height: 20rem;
+  }
+}
 /* ////////////////////////////////////// */
 
 .project-box {
